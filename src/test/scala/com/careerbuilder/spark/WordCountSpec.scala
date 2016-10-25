@@ -1,6 +1,6 @@
-package com.cloudwick.spark
+package com.careerbuilder.spark
 
-import com.cloudwick.spark.sparkspec.SparkSpec
+import com.careerbuilder.spark.WordCount
 import org.scalatest.{FlatSpec, GivenWhenThen, Matchers}
 
 /**

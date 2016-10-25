@@ -1,11 +1,11 @@
-package com.cloudwick.spark
+package com.careerbuilder.spark
 
 import org.apache.spark.SparkContext._
 import org.apache.spark.rdd.RDD
 
 /**
  * Simple word count application to illustrate spark standalone applications usage
- * @author ashrith
+ * @author oozturk
  */
 
 case class WordCount(word: String, count: Int)

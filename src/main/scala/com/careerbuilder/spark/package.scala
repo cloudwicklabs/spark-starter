@@ -1,8 +1,8 @@
-package com.cloudwick
+package com.careerbuilder
 
 /**
  * Pakcage object for examples
- * @author ashrith
+ * @author oozturk
  */
 package object spark {
   implicit class StringUtils(val value: String) {
