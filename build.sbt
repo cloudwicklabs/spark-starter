@@ -1,4 +1,4 @@
-name := "spark-starter"
+name := "Carotene4"
 
 version := "1.0"
 
@@ -25,6 +25,13 @@ libraryDependencies ++= Seq(
   "org.scalatest" %% "scalatest" % "3.0.0" % "test",
   "org.xerial.snappy" % "snappy-java" % "1.1.1.7"
  )
+
+assemblyMergeStrategy in assembly := {
+  case PathList("org", "apache", "spark", "unused", "UnusedStubClass.class") => MergeStrategy.discard
+  case x =>
+    val oldStrategy = (assemblyMergeStrategy in assembly).value
+    oldStrategy(x)
+}
 
 parallelExecution in Test := false
 

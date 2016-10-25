@@ -34,7 +34,7 @@ sbt test
 ## Running the application in local mode
 
 ```
-spark-submit --class com.cloudwick.spark.WordCountRunner \
+spark-submit --class com.careerbuilder.spark.WordCountRunner \
     --master "local[*]" \
     target/scala-2.10/spark-starter_2.10-1.0.jar \
     [input_path] \
@@ -44,7 +44,7 @@ spark-submit --class com.cloudwick.spark.WordCountRunner \
 ## Running the application in the cluster
 
 ```
-spark-submit --class com.cloudwick.spark.WordCountRunner \
+spark-submit --class com.careerbuilder.spark.WordCountRunner \
     --master "local[*]" \
     [path_to_jar]/spark-starter_2.10-1.0.jar \
     [input_path] \

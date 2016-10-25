@@ -1,4 +1,4 @@
-package com.cloudwick.spark.sparkspec
+package com.careerbuilder.spark
 
 import org.apache.spark.{SparkConf, SparkContext}
 import org.scalatest.{Suite, BeforeAndAfterAll}

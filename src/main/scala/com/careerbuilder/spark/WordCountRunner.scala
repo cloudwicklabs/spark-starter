@@ -1,10 +1,10 @@
-package com.cloudwick.spark
+package com.careerbuilder.spark
 
 import org.apache.spark.{SparkContext, SparkConf, Logging}
 
 /**
  * Main method to the Spark WordCount application.
- * @author ashrith
+ * @author oozturk
  */
 object WordCountRunner extends App with Logging {
   if (args.length < 2) {
